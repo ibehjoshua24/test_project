@@ -1,5 +1,8 @@
 import React from 'react'
 import logo from "../../../public/logo.png"
+import Facebook from "../../../public/facebook.png"
+import Twitter from "../../../public/twitter.png"
+import instagram from "../../../public/Shape.svg"
 import "./Footer.css"
 
 const Footer  = () => {
@@ -11,7 +14,7 @@ const Footer  = () => {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className='uppertext-card'>
-                    <h3>LInks</h3>
+                    <h3>Links</h3>
                     <ul>
                         <li>Home</li>
                         <li>About</li>
@@ -46,10 +49,15 @@ const Footer  = () => {
             </div>
         </div>
 
-        <div>
-            <div>
+        <div className='socials'>
+            <div className='socials-main'>
+                <div className='socials-list'>
+                    <img src={Facebook} alt="" />
+                    <img src={instagram} alt="" />
+                    <img src={Twitter} alt="" />
+                </div>
                 <div>
-
+                    <p>&#169;2023 OSUN Techstars. All rights reserved</p>
                 </div>
             </div>
         </div>

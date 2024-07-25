@@ -147,12 +147,13 @@ const Home = () => {
         </div>
 
         <div className='explore'>
-            <div>
+            <div className='exp'>
                 <h4><span>Explore</span> Our Courses</h4> 
                 <img src={arrow} alt="" />
             </div>
 
             <div className='expo'>
+                <div className='expo-text'>
                 <div>
                     <h3>
                         Building A Community That Embodies Technical Growth, Networking, Mentoring And Visibility Amongst All Level Career Roles In Technology
@@ -163,7 +164,7 @@ const Home = () => {
                     <button>Apply Now</button>
                     <button style={{backgroundColor: 'transparent', color: 'white'}}>Find Talent</button>
                 </div>
-                
+                </div>
             </div>
         </div>
     </>

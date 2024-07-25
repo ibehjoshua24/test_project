@@ -254,6 +254,10 @@
     ;
 }
 
+.ser-list img {
+    border-radius: 32px 0 0 32px;
+}
+
 
 
 .ser-list div {
@@ -399,24 +403,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 93px;
 }
 
-.explore div {
+.exp{
     display: flex;
     /* border: 2px solid black; */
     margin-bottom: 93px;
-    gap: 10px;
+    gap: 20px;
 }
 
-.explore div  h4{
+.exp  h4{
     font-size: 32px;
     font-weight: 500;
     /* line-height: 43.71px; */
     text-align: center;
-   
+    
     }
 
-.explore div h4 span {
+.exp h4 span {
     border-bottom: #330099 5px solid;
     padding-bottom: 5px;
    
@@ -426,24 +431,28 @@
     background-image: url('../../../public/Rectangle30.png');
     background-size: cover;
     height: 600px;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    /* flex-direction: column;  */
     width: 1311px;
-    gap: 64px;
+    /* gap: 20px; */
     align-items: center;
     justify-content: center;
-    text-align: center;
-    /* align-self: flex-start; */
 }
 
-.expo div {
-   
-    /* height: 424px; */
+.expo-text {
     /* border: #F4F4F4 2px solid; */
     width: 1090px;
+    /* border: 2px solid rgb(27, 222, 53); */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
+/* 
+.expo-text div {
+    border: 2px solid white;
+} */
 
-.expo div h3 {
+.expo-text div h3 {
     font-size: 56px;
     font-weight: 400;
     line-height: 76.5px;
@@ -473,7 +482,8 @@
     font-size: 20px;
     line-height: 24px;
     color: black;
-    /* border: 1px white solid; */
+    border: 1px white solid;
+    /* margin-right: 20px; */
 }
 
 
