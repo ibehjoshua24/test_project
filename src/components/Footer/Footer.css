@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    width: 1440px;
+    height: Fixed (519px)px;
+    gap: 0px;
+    border-top: 1px solid black;
+
+}
+
+.upper {
+    width: 1440px;
+    height: 440px;
+    padding: 128px 64px 64px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px;
+    opacity: 0px; */
+
+}
+
+.upper-text {
+    min-width: 1312px;
+    height: 248px;
+    display: flex;
+    gap: 24px;
+    opacity: 0px;
+    /* border: 2px solid black; */
+
+}
+
+.uppertext-logo {
+    width: 199px;
+    height: 34px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+.uppertext-logo img {
+    width: 111px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.uppertext-card {
+    width:199px;
+    height:248px;
+    gap: 32px;
+    opacity: 0px;
+    /* border: 2px solid rgb(77, 8, 8); */
+    display: flex;
+    flex-direction: column;
+}
+
+.uppertext-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.uppertext-card ul {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+.subs {
+     width:420px;
+    height: 106px;
+    gap: 16px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.subs p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.subs div {
+    width: 420px;
+    height: 64px;
+    padding: 8px;
+    /* gap: 10px; */
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.subs div input {
+    width: 302px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    /* text-align: left; */
+    padding-left: 8px;
+    border: none;
+}
+
+.subs div button {
+    width: 102px;
+    height: 48px;
+    padding: 12px;
+    gap: 2px;
+    border-radius: 8px ;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    background-color: #330099;
+    color: white;
+    border: none;
+}
+

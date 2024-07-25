@@ -1,0 +1,479 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.body{
+    background-image: url('../../../public/Rectangle.png');
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    width: 1440px;
+    height: 627px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: 758px;
+    height: 165px;
+    /* border: 2px white solid; */
+    text-align: center;
+    position: relative;
+    top: 50px;
+    /* top: 134px;
+    left: 344px; */
+    /* position: relative; */
+}
+
+.hero h1 {
+    font-weight: 600px;
+    font-size: 50px;
+    line-height: 61.5px;
+    color: white;
+}
+
+.mission{
+    width: 674px;
+    height: 78px;
+    top: 20px;
+    left: 0px;
+    gap: 32px;
+    position: relative;
+    /* border: 2px white solid; */
+
+}
+
+.mission p{
+    color: white;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.buttons {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    gap: 10px;
+    display: flex;
+}
+
+.btn2 {
+    width: 198.5px;
+    height: 56px;
+    border-radius: 8px;
+    /* padding: 16px 32px 16px 32px; */
+    /* gap: 2px; */
+    background-color: #FF6600;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+
+.btn3 {
+    width: 210px;
+    height: 56px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 600px;
+}
+
+.aboutus {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.about-text {
+    width: 1090px;
+    height: 556px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin-top: 64px;
+    margin-left: 162px;
+    margin-right: 186px;
+}
+
+.about-header {
+    width: 418px;
+    height: 128px;
+    gap: 8px;
+    /* border: 2px solid black; */
+    
+}
+
+.about-header div {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px black solid;
+    width: 105px;
+}
+
+.about-header h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* border: 1px black solid; */
+    width: 105px;
+    height: 32px;
+    gap: 10px;
+    text-align: center;
+}
+
+.about-header h2 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.aboutus-body {
+    width: 697px;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    /* border: 2px solid black; */
+}
+
+.aboutus-body p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 697px;
+    height: 320px;
+}
+
+.aboutus-mission {
+    height: 120px;
+    width: 664px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-mission h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.aboutus-mission p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.aboutus-mission button {
+    width: 198.5px;
+    /* height: 56px; */
+    /* position: relative; */
+    border-radius: 8px;
+    /* left: 555px;
+    top: -20px; */
+    padding: 16px 32px 16px 32px;
+    /* gap: 2px; */
+    background-color: black;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+
+.service {
+    /* border: 2px black solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    margin-top: 64px;
+}
+
+.services {
+        /* border: 2px black solid; */
+        display: flex;
+        flex-direction: column;
+        gap: 96px;
+        margin-right: 64px;
+        margin-left: 64px;
+}
+
+.service-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.service-text h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.service-text p {
+    font-family: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.service-text h2 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.ser-list{
+    height: 660px;
+    display: flex;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    ;
+}
+
+
+
+.ser-list div {
+    width: 512px;
+    height: 520px;
+    /* border: 2px solid black; */
+    margin: 70px 72px 70px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ser-list div h2 {
+    font-weight: 600;
+    font-size: 56px;
+    /* line-height: 76.5px; */
+}
+
+.ser-list div p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.ser-list div ul {
+    margin-left: 27px;
+}
+
+.ser-list div ul li {
+    list-style-image: url('../../../public/Vector.png');
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+.ser-list div button {
+    width: 198.5px;
+    /* height: 72px; */
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
+    /* gap: 2px; */
+    background-color: blue;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.dev {
+    /* margin-left: 93px;
+    margin-right: 93px; */
+    display: flex;
+    margin-top: 153px;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    align-self: center;
+    gap: 48px;
+}
+
+.dev-list {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 533px;
+    gap: 10px;
+}
+
+.dev-list div {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.dev-list div h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 43.71px;
+    text-align: left;
+
+}
+
+.dev-list div p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.dev-list div ul {
+    margin-left: 30px;
+    
+}
+
+.dev-list div ul li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    list-style-image: url('../../../public/Vector.png');
+    margin-bottom: 10px;
+
+}
+
+.dev-list img {
+    width: 533px;
+    height: 356px;
+    border-radius: 32px 32px 0 0;
+}
+
+.dev-list div button {
+    width: 198.5px;
+    height: 56px;
+    /* position: relative; */
+    border-radius: 8px;
+    /* left: 555px;
+    top: -20px; */
+    /* padding: 16px 32px 16px 32px; */
+    /* gap: 2px; */
+    background-color: #FF6600;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+
+#btns {
+    background-color: #330099;
+}
+
+.explore {
+    margin-top: 93px;
+    /* border: 2px solid red; */
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore div {
+    display: flex;
+    /* border: 2px solid black; */
+    margin-bottom: 93px;
+    gap: 10px;
+}
+
+.explore div  h4{
+    font-size: 32px;
+    font-weight: 500;
+    /* line-height: 43.71px; */
+    text-align: center;
+   
+    }
+
+.explore div h4 span {
+    border-bottom: #330099 5px solid;
+    padding-bottom: 5px;
+   
+}
+
+.expo {
+    background-image: url('../../../public/Rectangle30.png');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 1311px;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* align-self: flex-start; */
+}
+
+.expo div {
+   
+    /* height: 424px; */
+    /* border: #F4F4F4 2px solid; */
+    width: 1090px;
+}
+
+.expo div h3 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 76.5px;
+    text-align: center;
+    color: white;
+    }
+
+.btnz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.btnz button{
+    width: 198.5px;
+    height: 56px;
+    /* position: relative; */
+    border-radius: 8px;
+    /* left: 555px;
+    top: -20px; */
+    /* padding: 16px 32px 16px 32px; */
+    /* gap: 2px; */
+    background-color: white;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    /* border: 1px white solid; */
+}
+
+
